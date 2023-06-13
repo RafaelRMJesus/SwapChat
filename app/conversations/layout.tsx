@@ -19,7 +19,7 @@ export default async function ConversationsLayout({
         <ConversationList 
           initialItems={conversations}
           users={users}
-        />
+      />
         {children}
       </div>
     </Sidebar>

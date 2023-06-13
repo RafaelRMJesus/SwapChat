@@ -27,15 +27,15 @@ const MobileFooter = () => {
       lg:hidden
       "
     >
-      {routes.map((route => (
+      {routes.map((route) => (
         <MobileFooterItem
-          key={route.label}
+          key={route.href}
           href={route.href}
           icon={route.icon}
           onClick={route.onClick}
           active={route.active}
-          />
-      )))}   
+        />
+      ))}   
     </div>
   )
 }
