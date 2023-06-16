@@ -12,6 +12,7 @@ export default function Home() {
     sm:px-6
     lg:px-8
     bg-gray-100"
+    style={{backgroundImage: `url(${"/images/back.svg"})`}}
     >
       <div className="sm:mx-auto sm:w-full sm:max-w-md"> 
         <Image
@@ -32,6 +33,21 @@ export default function Home() {
           Sign up to your account
         </h2>
         <AuthForm />
+        <h4
+                className="
+                bg-white
+                py-8
+                px-4
+                shadow
+                sm:rounded-lg
+                sm:px-10
+                mt-[10%]
+                text-center
+                text-xl
+                font-bold
+                text-gray-900"
+        >This is a portfolio project <br />
+         Rafael Jesus</h4>
       </div>
     </div>
   )
