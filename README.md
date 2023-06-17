@@ -5,7 +5,6 @@ This is a repository for a Real-Time Messenger Clone: Next.js 13, React, Tailwin
 
 ### https://messenger-clone-2.vercel.app 
 
-teste
 ### Key Features:
 
 - Real-time messaging using Pusher
