@@ -39,7 +39,16 @@ const Select: React.FC<SelectProps> = ({
         options={options}
         menuPortalTarget={document.body}
         styles={{
-          menuPortal: (base) => ({ ...base, zIndex: 9999 })
+          menuPortal: (base) => ({ ...base, zIndex: 9999 }),
+          control: (baseStyles, state) => ({
+            ...baseStyles,
+            borderColor: state.isFocused ? '#a3e635' : 'grey',
+            boxShadow: state.isFocused ? '0 0 0 1px #a3e635' : 'none',
+            outline: 'none',
+            '&:hover': {
+              borderColor: state.isFocused ? '#a3e635' : 'grey',
+            },
+          }),
         }}
         classNames={{
           control: () => 'text-sm',

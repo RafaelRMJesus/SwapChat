@@ -34,7 +34,7 @@ const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
                 props.fullWidth && "w-full",
                 props.secondary ? 'text-gray-900' : 'text-white',
                 props.danger && 'bg-rose-500 hover:bg-rose-600 focus-visible:outline-rose-600',
-                !props.secondary && !props.danger && 'bg-sky-500 hover:bg-sky-600 focus-visible:outline-sky-600' 
+                !props.secondary && !props.danger && 'bg-lime-400 hover:bg-lime-500 focus-visible:outline-lime-600' 
                 )}
             >
             {props.children}

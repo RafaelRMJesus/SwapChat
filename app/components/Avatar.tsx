@@ -3,7 +3,6 @@
 import { User } from '@prisma/client';
 import Image from 'next/image';
 import useActiveList from '../hooks/useActiveList';
-import { is } from 'date-fns/locale';
 
 interface AvatarProps {
   user?: User;

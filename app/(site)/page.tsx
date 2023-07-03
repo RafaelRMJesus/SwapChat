@@ -1,5 +1,6 @@
 import Image from "next/image"
 import AuthForm from "./components/AuthForm"
+import { SiSublimetext } from 'react-icons/si';
 
 export default function Home() {
   return (
@@ -11,15 +12,17 @@ export default function Home() {
     py-12
     sm:px-6
     lg:px-8
-    bg-gray-100"
-    style={{backgroundImage: `url(${"/images/back.svg"})`}}
+    bg-gray-100
+    background-cover
+    "
+    style={{backgroundImage: `url(${"/images/backgreen.svg"})`}}
     >
       <div className="sm:mx-auto sm:w-full sm:max-w-md"> 
         <Image
-          src="/images/logo.png"
+          src={"/images/logo.svg"}
           alt="Logo"
-          width="48"
-          height="48"
+          width="60"
+          height="60"
           className="mx-auto w-auto"
         />
         <h2 

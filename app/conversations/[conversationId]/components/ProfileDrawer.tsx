@@ -149,9 +149,7 @@ const ProfileDrawer: React.FC<ProfileDrawerProps> = ({
                                 text-gray-400
                                 hover:text-gray-500
                                 focus:outline-none
-                                focus:ring-2
-                                focus:ring-offset-2
-                                focus:ring-sky-500
+                              
                               "
                             >
                               <span className="sr-only">
