@@ -1,7 +1,8 @@
-# Real-Time Messenger Clone: Next.js 13, React, Tailwind, Prisma, MongoDB, NextAuth, Pusher (2023)
+# SwapChat Real-Time Messenger App: 
 
-This is a repository for a Real-Time Messenger Clone: Next.js 13, React, Tailwind, Prisma, MongoDB, NextAuth, Pusher.
+This is a repository for SwapChat.
 
+### Next.js 13, React, Tailwind, Prisma, MongoDB, NextAuth, Pusher.
 
 ### https://messenger-clone-2.vercel.app 
 
