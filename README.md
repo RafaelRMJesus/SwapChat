@@ -1,4 +1,4 @@
-# SwapChat Real-Time Messenger App: 
+# SwapChat Real-Time Messaging App: 
 
 This is a repository for SwapChat.
 
