@@ -29,9 +29,6 @@ This is a repository for SwapChat.
 - Handling relations between Server and Child components in a real-time environment
 - Creating and managing chat rooms and channels
 
-Whether you're an experienced developer looking to expand your skillset or a beginner eager to learn the latest web development technologies, this tutorial has something for everyone. Join us on this exciting journey and take your web development skills to new heights!
-
-
 ### Prerequisites
 
 **Node version 14.x**
